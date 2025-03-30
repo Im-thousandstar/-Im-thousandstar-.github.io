@@ -233,6 +233,17 @@ footer {
   }
 }
 
+.sns-btn {
+display: flex;
+margin-top: 20px;
+}
+
+.sns-btn li {
+width: 30px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
   .menu-icon {
     display: block;
   }
