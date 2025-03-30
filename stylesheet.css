@@ -17,6 +17,7 @@ a {
   margin: 0 auto;
 }
 
+/*top*/
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(top.png);
@@ -37,6 +38,28 @@ a {
   margin-bottom: 40px;
 }
 
+/*Gallery*/
+.gallery-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(gallery.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.gallery-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.gallery-wrapper p {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+/*btn*/
 .btn-wrapper {
   text-align: center;
 }
