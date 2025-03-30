@@ -71,10 +71,10 @@ a {
 }
 
 header {
-  height: 50px;
+  height: 60px;
   width: 100%;
   /*background-color: rgba(224,213,206,1.0);*/
-  background-color: rgba(231,220,212,1.0);
+  background-color: rgba(231,220,212,0.5);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -91,11 +91,11 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  margin-right: -20px;
 }
 
 .header-right a {
-  line-height: 50px;
+  line-height: 60px;
   padding: 0 25px;
   color: white;
   display: block;
@@ -116,12 +116,6 @@ header {
 .heading h2 {
   font-weight: normal;
 }
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
 
 .text-contents {
   width: 80%;
@@ -160,7 +154,7 @@ footer img {
 
 footer p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 footer {
@@ -218,7 +212,7 @@ footer {
     width: 100%;
   }
 
-  .twitter {
+  .instagram {
     margin-top: 10px;
   }
 
