@@ -213,18 +213,6 @@ footer {
   }
 }
 
-/*
-@media screen and(max-width: 480px) {
-    img {
-    border: 0;
-    }
-    }
-@media screen and(min-width: 1280px) {
-    img {
-    border: 1px solid red;
-    }
-}
-
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
     font-size: 32px;
@@ -236,10 +224,14 @@ footer {
 }
 
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
+   .top-wrapper h1 {
+    font-size: 32px;
   }
-  */
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
 
   .menu-icon {
     display: block;
