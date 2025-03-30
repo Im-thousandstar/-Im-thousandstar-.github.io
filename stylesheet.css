@@ -213,6 +213,7 @@ footer {
   }
 }
 
+/*
 @media screen and(max-width: 480px) {
     img {
     border: 0;
@@ -238,6 +239,7 @@ footer {
   .header-right {
     display: none;
   }
+  */
 
   .menu-icon {
     display: block;
@@ -248,7 +250,7 @@ footer {
   }
 
   .instagram {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .top-wrapper {
@@ -261,14 +263,6 @@ footer {
 
   .top-wrapper p {
     font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
   }
 
   .message-wrapper .btn {
