@@ -41,8 +41,8 @@ a {
 /*Gallery*/
 .gallery-wrapper {
   padding: 180px 0 100px 0;
-  <video src="video.mp4"></video>
-  background-image: url(gallery.png);
+  /*<video src="video.mp4"></video>*/
+  background-image: url(gallery.jpg);
   background-size: cover;
   color: white;
   text-align: center;
