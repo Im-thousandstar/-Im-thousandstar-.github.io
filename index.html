@@ -31,8 +31,8 @@
   transform: translate(0, -11px) rotate(45deg);
 }
 </style>
-  
 </head>
+  
 <body>
   <header>
       <span class="fa fa-bars menu-icon"></span>
@@ -44,6 +44,21 @@
       </div>
     </div>
   </header>
+
+  <p>Click on the Menu Icon to transform it to "X":</p>
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+
+  
   <div class="top-wrapper">
     <div class="container">
       <h1>thous Gallery</h1>
