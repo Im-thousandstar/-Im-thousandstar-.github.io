@@ -247,6 +247,7 @@ footer {
   }
 }
 
+/*
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
@@ -287,4 +288,4 @@ footer {
   .message-wrapper .btn {
     width: 100%;
   }
-}
+}*/
