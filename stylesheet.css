@@ -73,7 +73,7 @@ a {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(224,213,206,0.9);
+  background-color: rgba(224,213,206,1.0);
   position :fixed;
   top: 0;
   z-index: 10;
