@@ -239,10 +239,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 500px;
+    max-width: 50px;
 }
 .footer-sns img {
-    width: 5px;
+    width: 35px;
 }
 
 .menu-icon {
