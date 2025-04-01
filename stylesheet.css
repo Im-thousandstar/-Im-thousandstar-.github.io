@@ -225,6 +225,7 @@ footer img {
 footer p {
   /*color: #b3aeb5;*/
   color: white;
+  font-weight: bold;
   font-size: 50px;
 }
 
