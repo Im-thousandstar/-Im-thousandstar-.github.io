@@ -232,6 +232,19 @@ footer {
   padding-bottom: 20px;
 }
 
+.footer-sns {
+    list-style: none;
+    margin: 0px auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 500px;
+}
+.footer-sns img {
+    width: 35px;
+}
+
 .menu-icon {
   color: white;
   float: right;
