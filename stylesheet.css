@@ -286,6 +286,46 @@ footer {
   }
 }
 
+
+    .intro-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: white;
+      line-height: 1.8;
+      font-family: 'Fira Code', monospace;
+    }
+    .intro-wrapper h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    .intro-wrapper h2 {
+      font-size: 1.2em;
+      font-weight: normal;
+      color: #aaa;
+      margin-bottom: 2em;
+      font-family: 'Fira Code', monospace;
+    }
+    .intro-wrapper a {
+      color: #80cfff;
+      text-decoration: underline;
+    }
+    .intro-wrapper .section {
+      margin-bottom: 2em;
+    }
+    .intro-wrapper .contact {
+      border-top: 1px solid #444;
+      padding-top: 1em;
+      margin-top: 2em;
+    }
+    @media screen and (max-width: 768px) {
+      .intro-wrapper {
+        padding: 30px 15px;
+      }
+    }
+
+
 /*
 @media all and (max-width: 670px) {
   .header-right {
