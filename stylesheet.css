@@ -19,18 +19,22 @@ a {
 }
 
 /*top*/
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("top.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
     .top-wrapper p,
     .top-wrapper .section p,
     .top-wrapper .contact p {
       color: #a890d3 !important;
       font-size: 1.1em;
       padding: 180px 0 100px 0;
-  background-image: url("top.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
     }
+
     .top-wrapper h1 {
       font-family: 'Playfair Display', serif;
       font-size: 2.5em;
