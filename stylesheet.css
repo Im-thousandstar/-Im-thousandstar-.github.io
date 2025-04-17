@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  font-family: "ヒラギノ明朝 ProN";
+  /*font-family: "ヒラギノ明朝 ProN";*/
+  font-family: 'Fira Code', monospace;
 }
 
 a {
@@ -30,6 +31,7 @@ a {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
+  font-family: 'Playfair Display', serif;
 }
 
 .top-wrapper p {
