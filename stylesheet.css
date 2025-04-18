@@ -36,7 +36,7 @@ a {
 .top-wrapper .section p,
 .top-wrapper .contact p {
   color: #a890d3 !important;
-  font-size: 1.1em;
+  font-size: 20px;
   margin-bottom: 1em;
 }
 
@@ -46,7 +46,7 @@ a {
       color: white;
     }
     .top-wrapper h2 {
-      font-size: 1em;
+      font-size: 25px;
       font-weight: normal;
       margin-bottom: 2em;
       font-family: 'Fira Code', monospace;
@@ -111,7 +111,7 @@ a {
 
 .gallery-wrapper p {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 
@@ -133,7 +133,7 @@ a {
 
 .prof-wrapper p {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 
