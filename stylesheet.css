@@ -41,10 +41,10 @@ a {
 }
 
     .top-wrapper h1 {
+      opacity: 0.7;
+      letter-spacing: 5px;
       font-size: 45px;
-      margin-bottom: 0.2em;
-      color: white;
-    }
+     }
     .top-wrapper h2 {
       font-size: 25px;
       font-weight: normal;
@@ -89,7 +89,7 @@ a {
 
 .top-wrapper p {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 */
@@ -178,7 +178,7 @@ header {
   background-color: rgba(231,220,212,0.5);
   position :fixed;
   top: 0;
-  z-index: 10;
+  z-index: 13;
 }
 
 .logo {
@@ -226,22 +226,6 @@ header {
   font-weight: normal;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
-
 .text-contents {
   width: 80%;
   display: inline-block;
@@ -252,25 +236,6 @@ header {
 
 .heading h3 {
   font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
 }
 
 footer img {
@@ -314,16 +279,6 @@ footer {
   clear: left;
 }
 
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
   footer {
     text-align: center;
   }
@@ -338,48 +293,3 @@ footer {
     font-size: 20px;
   }
 }
-
-
-
-/*
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
-  }
-
-  .message-wrapper .btn {
-    width: 100%;
-  }
-}*/
