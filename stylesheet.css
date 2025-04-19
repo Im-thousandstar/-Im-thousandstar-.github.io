@@ -170,21 +170,33 @@ a {
 
 
 .contact-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background: none;
+  background: rgba(231, 220, 212, 0.5); /* headerと統一 */
+  border: none;
   color: #e8dcf5;
+  padding: 12px 24px;
   font-family: 'Fira Code', monospace;
   font-size: 16px;
   text-decoration: none;
-  text-shadow: 0 0 1px #000, 0 0 2px #000;
   border-radius: 30px;
-  transition: all 0.4s ease-in-out;
-  margin: 20px auto;
+  text-shadow: 0 0 1px #000, 0 0 2px #000;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .contact-button:hover {
+  background: rgba(231, 220, 212, 0.7); /* hover時ちょっと濃く */
+  transform: translateY(-2px);
+}
+
+.contact-button-container {
   background: rgba(231, 220, 212, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /*btn*/
