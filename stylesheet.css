@@ -138,6 +138,33 @@ a {
   margin-bottom: 40px;
 }
 
+.contact-info {
+  background: rgba(255, 255, 255, 0.3); /* 半透明 */
+  backdrop-filter: blur(6px);          /* ぼかし */
+  -webkit-backdrop-filter: blur(6px);  /* Safari対応 */
+  color: #4b3c6e;
+  text-align: center;
+  padding: 30px 20px;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 16px;
+  margin: 30px auto 20px;
+  width: fit-content;
+  max-width: 90%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info a {
+  color: #8c5bb5;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
 /*btn*/
 .btn-wrapper {
   text-align: center;
