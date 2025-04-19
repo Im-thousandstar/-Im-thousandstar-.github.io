@@ -151,6 +151,24 @@ a {
   text-decoration: underline;
 }
 
+
+.contact-card {
+  background: rgba(231, 220, 212, 0.5); /* headerと同じ */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 24px 32px;
+  max-width: 90%;
+  margin: 40px auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #e8dcf5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
 .contact-button {
   display: inline-block;
   padding: 12px 24px;
