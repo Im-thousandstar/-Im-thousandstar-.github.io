@@ -98,6 +98,42 @@ a {
   margin-bottom: 40px;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.gallery-item {
+  width: calc(33.333% - 16px);
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+}
+
+.caption {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 18px;
+  color: #6e4c86;
+  margin-top: 10px;
+  text-shadow: 0 0 1px #fff;
+}
+
+
 /*Prof*/
 .prof-wrapper {
   padding: 180px 0 100px 0;
