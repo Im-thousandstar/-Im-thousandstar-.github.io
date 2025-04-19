@@ -157,11 +157,13 @@ a {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 20px;
+  text-align: left;
+  width: fit-content;
   padding: 24px 32px;
   max-width: 90%;
   margin: 40px auto;
   font-family: 'Fira Code', monospace;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 1.6;
   color: #e8dcf5;
   text-shadow: 0 0 1px #000, 0 0 2px #000;
