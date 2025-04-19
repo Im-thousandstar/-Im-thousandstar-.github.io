@@ -109,7 +109,7 @@ a {
 }
 
 .gallery-item {
-  width: calc(33.333% - 16px);
+  width: calc(25% - 16px);
   text-align: center;
 }
 
@@ -125,10 +125,23 @@ a {
   transform: scale(1.03);
 }
 
+@media (max-width: 600px) {
+  .gallery-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-card {
+    width: 80%; /* スマホでは中央に大きめ1枚 */
+  }
+}
+
+
 .caption {
   font-family: 'Petit Formal Script', cursive;
   font-size: 18px;
-  color: #6e4c86;
+  color: white;
+  font-weight: bold;
   margin-top: 10px;
   text-shadow: 0 0 1px #fff;
 }
