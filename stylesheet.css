@@ -153,7 +153,7 @@ a {
 
 
 .contact-card {
-  background: rgba(231, 220, 212, 0.5); /* headerと同じ */
+  background: rgba(231, 220, 212, 0.5);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 20px;
@@ -164,13 +164,13 @@ a {
   font-size: 12px;
   line-height: 1.6;
   color: #e8dcf5;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 0 1px #000, 0 0 2px #000;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 
 .contact-button {
-  background: rgba(231, 220, 212, 0.5); /* headerと統一 */
+  background: rgba(231, 220, 212, 0.5); 
   border: none;
   color: #e8dcf5;
   padding: 12px 24px;
@@ -184,7 +184,7 @@ a {
 }
 
 .contact-button:hover {
-  background: rgba(231, 220, 212, 0.7); /* hover時ちょっと濃く */
+  background: rgba(231, 220, 212, 0.7);
   transform: translateY(-2px);
 }
 
