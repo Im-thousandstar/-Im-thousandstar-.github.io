@@ -183,26 +183,19 @@ a {
   transform: scale(1.005);
 }
 
-.contact-card p {
+.contact-card *,
+.contact-card p,
+.contact-card strong,
+.contact-card a,
+.contact-card span {
   margin: 0.4em auto;
   padding: 0 12px;
   max-width: 700px;
   font-size: inherit;
-  line-height: inherit;
-  color: inherit;
   font-family: inherit;
-  text-shadow: none;
-}
-
-.contact-card strong,
-.contact-card a,
-.contact-card span {
-  display: inline;
-  font-size: inherit;
-  font-family: inherit;
-  color: inherit;
-  text-shadow: none;
-  line-height: inherit;
+  color: #4a2e2b !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
 }
 
 @media (max-width: 600px) {
