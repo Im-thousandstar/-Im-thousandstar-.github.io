@@ -131,7 +131,7 @@ a {
   max-width: 90%;
   font-family: 'Fira Code', monospace;
   font-size: 8px;
-  line-height: 1.2; 
+  line-height: 1.0; 
   color: #eedafc;
   text-shadow: 0 0 1px #000, 0 0 2px #000;
 }
