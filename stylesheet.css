@@ -157,11 +157,11 @@ a {
 }
 
 .contact-card {
-  background: rgba(231, 220, 212, 0.4);
+  background: rgba(245, 239, 233, 0.4);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 20px;
-  border: 1px solid rgba(231, 220, 212, 0.8);
+  border: 1px solid rgba(100, 70, 60, 0.5);
   text-align: left;
 
   width: 100%;
@@ -170,18 +170,16 @@ a {
   margin: 40px auto;
 
   font-family: 'Petit Formal Script', cursive;
-  font-size: 16px;               
+  font-size: 16px;
   line-height: 1.4;
-  color: #6e4c86;
-  text-shadow: none;  
-
-
-  box-shadow:none;
+  color: #4a2e2b;
+  text-shadow: none;
+  box-shadow: none;
   transition: all 0.4s ease-in-out;
 }
 
 .contact-card:hover {
-  color: #6e4c86;;
+  color: #3a1e1b;
   transform: scale(1.005);
 }
 
@@ -193,20 +191,19 @@ a {
   line-height: inherit;
   color: inherit;
   font-family: inherit;
-  text-shadow: inherit;
+  text-shadow: none;
 }
 
 .contact-card strong,
 .contact-card a,
 .contact-card span {
-  display: inline; 
+  display: inline;
   font-size: inherit;
   font-family: inherit;
   color: inherit;
   text-shadow: none;
   line-height: inherit;
 }
-
 
 @media (max-width: 600px) {
   .contact-card {
@@ -215,6 +212,7 @@ a {
     max-width: 90%;
   }
 }
+
 
 
 .contact-button {
