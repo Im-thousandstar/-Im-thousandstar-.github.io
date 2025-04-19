@@ -53,7 +53,7 @@ a {
     }
     .top-wrapper h2.sample4 {
       color: rgba(255, 255, 255, 0.9);
-      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+      /*text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);*/
     }
     .top-wrapper a {
       color: #a890d3;
