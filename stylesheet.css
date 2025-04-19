@@ -384,16 +384,13 @@ footer {
     font-size: 20px;
   }
 
-  
-  .inline-img {
-  float: right;
-  height: 6em;              
-  margin-left: 16px;        
-  margin-bottom: 8px;
-  border-radius: 8px;
-  opacity: 1;
-  filter: none;
-  background: none;
-  z-index: 10;
-}
 
+  .inline-img {
+  float: left;
+  width: 80px;
+  height: auto;
+  margin-right: 12px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
