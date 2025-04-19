@@ -14,6 +14,7 @@ a {
 
 .container {
   width: 100%;
+  fon-size: 10px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -386,8 +387,8 @@ footer {
 
 
   .inline-img {
-  float: left;
-  width: 80px;
+  float: right;
+  width: 140px;
   height: auto;
   margin-right: 12px;
   margin-bottom: 4px;
