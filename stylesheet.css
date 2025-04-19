@@ -387,16 +387,27 @@ footer {
   margin-bottom: 4px;
 }
 
-.insta-wrapper {
+.insta-gallery {
   display: flex;
-  gap: 16px; 
+  flex-wrap: wrap;
   justify-content: center;
-  flex-wrap: wrap; 
-  padding: 20px;
+  gap: 24px;
+  padding: 32px 16px;
+}
+
+.insta-card {
+  background: rgba(255, 255, 255, 0.2); /* 半透明 */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  min-width: 240px;
+  flex: 1 1 280px;
 }
 
 .instagram-media {
-  max-width: 240px !important; 
-  min-width: 180px;
-  flex: 1 1 200px;
+  max-width: 100% !important;
 }
+
