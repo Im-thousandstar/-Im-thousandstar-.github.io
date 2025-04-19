@@ -155,27 +155,28 @@ a {
   transform: scale(1.005);
 }
 
-.contact-card *,
-.contact-card p,
-.contact-card strong,
-.contact-card a {
-  font-size: inherit !important;
+.contact-card p {
+  margin: 0.4em auto;
+  padding: 0 12px;
+  max-width: 500px;
+  font-size: inherit;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
   text-shadow: inherit;
-  margin: 0.4em auto;
-  padding: 0 12px;
-  display: block;
-  max-width: 500px;
 }
 
-.contact-card img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 8px auto;
+.contact-card strong,
+.contact-card a,
+.contact-card span {
+  display: inline; 
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  text-shadow: inherit;
+  line-height: inherit;
 }
+
 
 @media (max-width: 600px) {
   .contact-card {
