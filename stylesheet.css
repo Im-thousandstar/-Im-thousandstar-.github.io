@@ -144,29 +144,27 @@ a {
   -webkit-backdrop-filter: blur(6px);
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
+  padding: 20px 16px;
   margin: 30px auto 20px;
   text-align: left;
   width: fit-content;
   max-width: 90%;
-  font-family: 'Fira Code', monospace; /* コーディング風 */
-  font-size: 12px;
-  line-height: 1.8;
-}
-
-.contact-info strong {
-  color: #d6b3f3;
+  font-family: 'Fira Code', monospace;
+  font-size: 8px; /* ← 半分サイズ！ */
+  line-height: 1.2; /* ← 行間も詰めめに */
+  color: #e8dcf5;
   text-shadow: 0 0 1px #000, 0 0 2px #000;
 }
 
-.contact-info {
-  color: #bb9add;
+.contact-info strong {
+  color: #e8dcf5;
   text-shadow: 0 0 1px #000, 0 0 2px #000;
 }
 
 .contact-info a {
-  color: #8c5bb5;
+  color: #e8dcf5;
   text-decoration: none;
+  text-shadow: 0 0 1px #000, 0 0 2px #000;
 }
 
 .contact-info a:hover {
@@ -176,22 +174,21 @@ a {
 .contact-button {
   display: inline-block;
   padding: 12px 24px;
-  background: #8c5bb5;
-  color: white;
-  border-radius: 30px;
-  text-decoration: none;
-  font-family: 'Georgia', serif;
+  background: none;
+  border: 2px solid #e6b6cc; /* 柔らかローズ */
+  color: #e8dcf5;
+  font-family: 'Fira Code', monospace;
   font-size: 16px;
-  letter-spacing: 0.5px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  transition: background 0.3s ease;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000, 0 0 2px #000;
+  border-radius: 30px;
+  transition: all 0.3s ease;
   margin: 20px auto;
 }
 
 .contact-button:hover {
-  background: #a274cb;
+  background: rgba(230, 182, 204, 0.2); /* hoverもふんわり */
 }
-
 
 /*btn*/
 .btn-wrapper {
