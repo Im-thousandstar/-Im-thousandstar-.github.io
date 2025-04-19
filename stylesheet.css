@@ -164,6 +164,25 @@ a {
   text-decoration: underline;
 }
 
+.contact-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #8c5bb5;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease;
+  margin: 20px auto;
+}
+
+.contact-button:hover {
+  background: #a274cb;
+}
+
 
 /*btn*/
 .btn-wrapper {
