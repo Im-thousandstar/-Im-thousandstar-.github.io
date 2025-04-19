@@ -118,7 +118,7 @@ a {
   margin-bottom: 40px;
 }
 
-.contact-info {
+.contact-info, .contact-info * {
   background: rgba(231, 220, 212, 0.5);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
