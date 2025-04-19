@@ -35,9 +35,11 @@ a {
 .top-wrapper p,
 .top-wrapper .section p,
 .top-wrapper .contact p {
-  color: #a890d3;
-  font-size: 20px;
-  margin-bottom: 1em;
+  margin: 0.3em 0;             /* ← 行間も調整 */
+  padding: 0 16px;             /* ✅ 左右の余白をつけて本文を中央寄せに */
+  max-width: 500px;            /* ✅ テキストの横幅も制限（任意） */
+  margin-left: auto;
+  margin-right: auto;
 }
 
     .top-wrapper h1 {
@@ -50,14 +52,14 @@ a {
       font-size: 25px;
       font-weight: normal;
       margin-bottom: 2em;
-      font-family: 'Fira Code', monospace;
+      font-family: 'Great Vibes', cursive; 
     }
     .top-wrapper h2.sample4 {
       color: rgba(255, 255, 255, 0.9);
       /*text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);*/
     }
     .top-wrapper a {
-      color: #d6c8ea;
+      color: #8f7bbf;
       text-decoration: underline;
     }
     .top-wrapper .section {
