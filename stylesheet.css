@@ -153,21 +153,40 @@ a {
 
 
 .contact-card {
-  background: rgba(231, 220, 212, 0.5);
+  background: rgba(231, 220, 212, 0.4);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 20px;
+  border: 1px solid rgba(231, 220, 212, 0.8);
   text-align: left;
   width: fit-content;
-  padding: 24px 32px;
+  padding: 28px 36px;
   max-width: 90%;
   margin: 40px auto;
   font-family: 'Fira Code', monospace;
   font-size: 8px;
   line-height: 1.6;
-  color: #e8dcf5;
-  text-shadow: 0 0 1px #000, 0 0 2px #000;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: #e3d3f7;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow:
+    inset 0 2px 8px rgba(255, 255, 255, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+
+  transition: all 0.4s ease-in-out;
+}
+
+.contact-card:hover {
+  box-shadow:
+    inset 0 2px 12px rgba(255, 255, 255, 0.2),
+    0 10px 30px rgba(0, 0, 0, 0.15);
+  transform: scale(1.01); /* ほんのり拡大 */
+}
+
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 20px 16px;
+    font-size: 7px;
+  }
 }
 
 
