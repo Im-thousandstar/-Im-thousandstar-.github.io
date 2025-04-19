@@ -222,7 +222,7 @@ a {
 
 
 .contact-button {
-  background: rgba(231, 220, 212, 0.4);
+  background: rgba(231, 220, 212, 0.15);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 20px;
@@ -259,7 +259,7 @@ a {
 
 
 .contact-button-container {
-  background: rgba(231, 220, 212, 0.5);
+  background: rgba(231, 220, 212, 0.15);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   padding: 20px;
