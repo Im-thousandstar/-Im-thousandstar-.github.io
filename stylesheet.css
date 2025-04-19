@@ -33,11 +33,9 @@ a {
 }
 
 .top-wrapper p,
-.top-wrapper .section p,
-.top-wrapper .contact p {
-  margin: 0.3em 0;             /* ← 行間も調整 */
-  padding: 0 16px;             /* ✅ 左右の余白をつけて本文を中央寄せに */
-  max-width: 500px;            /* ✅ テキストの横幅も制限（任意） */
+.top-wrapper .section p{
+  padding: 0 16px;       
+  max-width: 850px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -166,12 +164,12 @@ a {
   margin: 40px auto;
   font-family: 'Fira Code', monospace;
 
-  font-size: 4px; /* ✅ 半分に */
+  font-size: 4px;
   line-height: 1.2;
 
-  color: #f4effb; /* ✅ 白ラベンダー */
+  color: #eedafc;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.4),
-               0 0 4px rgba(0, 0, 0, 0.15); /* ✅ 光＆読みやすさ */
+               0 0 4px rgba(0, 0, 0, 0.15);
 
   box-shadow:
     inset 0 2px 8px rgba(255, 255, 255, 0.1),
@@ -180,7 +178,6 @@ a {
   transition: all 0.4s ease-in-out;
 }
 
-/* ✅ hover時も白っぽくキラッと */
 .contact-card:hover {
   color: #ffffff;
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5),
@@ -191,7 +188,6 @@ a {
   transform: scale(1.01);
 }
 
-/* ✅ スマホ対応：読みやすく少し大きく */
 @media (max-width: 600px) {
   .contact-card {
     padding: 20px 16px;
