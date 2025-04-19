@@ -139,20 +139,29 @@ a {
 }
 
 .contact-info {
-  background: rgba(255, 255, 255, 0.3); /* 半透明 */
-  backdrop-filter: blur(6px);          /* ぼかし */
-  -webkit-backdrop-filter: blur(6px);  /* Safari対応 */
-  color: #4b3c6e;
-  text-align: center;
-  padding: 30px 20px;
-  font-family: 'Georgia', serif;
-  font-size: 16px;
-  letter-spacing: 0.5px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
   margin: 30px auto 20px;
+  text-align: left;
   width: fit-content;
   max-width: 90%;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Fira Code', monospace; /* コーディング風 */
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.contact-info strong {
+  color: #d6b3f3;
+  text-shadow: 0 0 1px #000, 0 0 2px #000;
+}
+
+.contact-info {
+  color: #bb9add;
+  text-shadow: 0 0 1px #000, 0 0 2px #000;
 }
 
 .contact-info a {
