@@ -104,13 +104,14 @@ a {
   justify-content: center;
   gap: 24px;
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 0 20px;
 }
 
 .gallery-item {
   width: calc(25% - 16px);
-  text-align: center;
+  cursor: pointer;
+  position: relative;
 }
 
 .gallery-item img {
@@ -122,29 +123,70 @@ a {
 }
 
 .gallery-item img:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
-
-@media (max-width: 600px) {
-  .gallery-item {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .gallery-card {
-    width: 80%; /* スマホでは中央に大きめ1枚 */
-  }
-}
-
 
 .caption {
-  font-family: 'Petit Formal Script', cursive;
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  margin-top: 10px;
-  text-shadow: 0 0 1px #fff;
-}
+      display: none;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+      font-family: 'Petit Formal Script', cursive;
+      color: white;
+      text-shadow: 0 0 1px #fff;
+    }
+
+ /* Lightbox styles */
+    #lightbox {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(20, 20, 20, 0.85);
+      backdrop-filter: blur(3px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #lightbox img {
+      max-width: 90vw;
+      max-height: 85vh;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 24px;
+      right: 32px;
+      font-size: 36px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-item {
+        width: calc(50% - 16px);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .gallery-item {
+        width: 90%;
+      }
+
+      #lightbox img {
+        max-width: 95vw;
+        max-height: 70vh;
+      }
+    }
+
 
 
 /*Prof*/
