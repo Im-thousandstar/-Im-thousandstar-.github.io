@@ -141,6 +141,14 @@ a {
       color: white;
       text-shadow: 0 0 1px #fff;
     }
+.lightbox-caption {
+  margin-top: 16px;
+  color: #f0e6dd;
+  font-size: 18px;
+  font-family: 'Petit Formal Script', cursive;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000;
+}
 
  /* Lightbox styles */
     #lightbox {
