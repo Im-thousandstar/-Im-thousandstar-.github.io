@@ -34,20 +34,28 @@
   </span>
 　　　</h1>
 
+
 <div class="gallery">
-  <div class="gallery-item">
-    <img src="scriabin.jpg" alt="Painting 1">
-    <p class="caption"><b>Poème de l'Extase, Op.54 (Scriabin, Alexsander)</b></p>
+  <div class="gallery-item" onclick="openLightbox(this)">
+    <img src="scriabin.jpg" alt="My Artwork1">
+    <div class="caption"><b>Poème de l'Extase, Op.54(Scriabin, Alexsander)</b></div>
   </div>
-  <div class="gallery-item">
-    <img src="scriabin2.png" alt="Painting 2">
-    <p class="caption"><b>Symphony No. 1, Op. 26, in E majo (Scriabin, Alexsander)</b></p>
+  <div class="gallery-item" onclick="openLightbox(this)">
+    <img src="scriabin2.png" alt="My Artwork2">
+    <div class="caption"><b><b>Symphony No.1, Op.26, in E majo(Scriabin, Alexsander)</b></div>
   </div>
-  <div class="gallery-item">
-    <img src="scriabin.jpg" alt="Painting 3">
-    <p class="caption">-----</p>
+  <div class="gallery-item" onclick="openLightbox(this)">
+    <img src="top.png" alt="My Artwork3">
+   <div class="caption"><b><b>Fantaisie brillante sur des motifs de l'opera 'Faust' de Gounod op. 20(Wieniawski,H.)</b></div>
   </div>
 </div>
+
+<!-- Lightboxモーダル -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <span class="close-btn">&times;</span>
+</div>
+
 
 
 
