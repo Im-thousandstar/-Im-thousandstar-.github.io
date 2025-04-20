@@ -182,12 +182,9 @@ a {
   }
 }
 
-      #lightbox img {
-        max-width: 95vw;
-        max-height: 70vh;
-      }
-    }
-
+body.lb-disable-scrolling {
+  overflow: auto !important;
+}
 
 
 /*Prof*/
